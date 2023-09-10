@@ -2,352 +2,394 @@
 // ! Don't remove anything from here if not sure
 
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
+	mobile,
+	backend,
+	creator,
+	web,
+	javascript,
+	typescript,
+	html,
+	css,
+	reactjs,
+	redux,
+	tailwind,
+	nodejs,
+	mongodb,
+	git,
+	figma,
+	docker,
+	meta,
+	starbucks,
+	tesla,
+	nupsgknust,
+	knust,
+	shopify,
+	threejs,
+	project1,
+	project2,
+	project3,
+	project4,
+	project5,
+	project6,
+	projectAA,
+	projectBB,
+	projectCC,
+	projectDD,
+	projectEE,
+	projectFF,
+	projectGG,
 } from "../assets";
 
 // Navbar Links
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/Technical-Shubham-tech/3d-portfolio/",
-  },
+	{
+		id: "about",
+		title: "About",
+	},
+	{
+		id: "work",
+		title: "Work",
+	},
+	{
+		id: "contact",
+		title: "Contact",
+	},
 ];
 
 // Services
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+	{
+		title: "Web Developer",
+		icon: web,
+	},
+	{
+		title: "React Native Developer",
+		icon: mobile,
+	},
+	{
+		title: "Backend Developer",
+		icon: backend,
+	},
+	{
+		title: "Content Creator",
+		icon: creator,
+	},
 ];
 
 // Technologies
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+	{
+		name: "HTML 5",
+		icon: html,
+	},
+	{
+		name: "CSS 3",
+		icon: css,
+	},
+	{
+		name: "JavaScript",
+		icon: javascript,
+	},
+	{
+		name: "TypeScript",
+		icon: typescript,
+	},
+	{
+		name: "React JS",
+		icon: reactjs,
+	},
+	{
+		name: "Redux Toolkit",
+		icon: redux,
+	},
+	{
+		name: "Tailwind CSS",
+		icon: tailwind,
+	},
+	{
+		name: "Node JS",
+		icon: nodejs,
+	},
+	{
+		name: "MongoDB",
+		icon: mongodb,
+	},
+	{
+		name: "Three JS",
+		icon: threejs,
+	},
+	{
+		name: "git",
+		icon: git,
+	},
+	{
+		name: "figma",
+		icon: figma,
+	},
+	{
+		name: "docker",
+		icon: docker,
+	},
 ];
 
 // Experiences
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+	{
+		title: "Software Developer",
+		company_name: "UITS, KNUST",
+		icon: knust,
+		iconBg: "#383E56",
+		date: "March 2020 - April 2021",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
+		title: "Lead Developer",
+		company_name: "NUPS-G KNUST",
+		icon: nupsgknust,
+		iconBg: "#FFF",
+		date: "Jan 2021 - Feb 2022",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
+		title: "Web Developer",
+		company_name: "Shopify",
+		icon: shopify,
+		iconBg: "#383E56",
+		date: "Jan 2022 - Jan 2023",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
+		title: "Full stack Developer",
+		company_name: "Meta",
+		icon: meta,
+		iconBg: "#E6DEDD",
+		date: "Jan 2023 - Present",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
 ];
 
 // Testimonials
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+	{
+		testimonial:
+			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+		name: "Prof. James Osei Mensah",
+		designation: "Senior Lecturer KNUST",
+		company: "KOHs Hostels",
+		image: "https://randomuser.me/api/portraits/women/4.jpg",
+	},
+	{
+		testimonial:
+			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+		name: "Prof. Marian Nkansah",
+		designation: "COO",
+		company: "DEF Corp",
+		image: "https://randomuser.me/api/portraits/men/5.jpg",
+	},
+	{
+		testimonial:
+			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+		name: "Emmanuel Agnmortey",
+		designation: "CEO",
+		company: "Krisposs Ghana",
+		image: "https://randomuser.me/api/portraits/women/6.jpg",
+	},
 ];
 
 // Projects
 const projects = [
-  {
-    name: "Disney+ Clone",
-    description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/Technical-Shubham-tech/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/Technical-Shubham-tech/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link:
-      "https://github.com/Technical-Shubham-tech/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/Technical-Shubham-tech/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/Technical-Shubham-tech/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link:
-      "https://github.com/Technical-Shubham-tech/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+	{
+		name: "KNUST Off-campus Accommodation ",
+		description:
+			"Access All Recognised Private Hostels & Homestels Access the University's recognised private Hostels and Homestels for easy room booking and get all necessary information concerning them.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "redux",
+				color: "green-text-gradient",
+			},
+			{
+				name: "bootstrap",
+				color: "orange-text-gradient",
+			},
+		],
+		image: projectAA,
+		source_code_link: "#",
+		live_site_link: "https://kosass.knust.edu.gh",
+	},
+	{
+		name: "KNUST Help Desk",
+		description:
+			"Experience efficient support services at KNUST with our osTicket-powered helpdesk. Submit, track, and resolve requests effortlessly. Whether you're a student or staff, our user-friendly platform ensures prompt assistance. Streamlined communication and issue resolution await you at KNUST's osTicket helpdesk. Get the support you need today",
+		tags: [
+			{
+				name: "HTML",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "osTicket",
+				color: "pink-text-gradient",
+			},
+		],
+		image: projectBB,
+		source_code_link: "#",
+		live_site_link: "https://helpdesk.knust.edu.gh/",
+	},
+	{
+		name: "Krisposs Company Ltd",
+		description:
+			"A company  curriculum  crafted to encourage learners to engage with the material, participate in group activities, and apply their knowledge in practical scenarios integrated with payment using paystack",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "scss",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "mongoDB",
+				color: "green-text-gradient",
+			},
+
+			{
+				name: "nodejs",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: projectCC,
+		source_code_link: "#",
+		live_site_link: "https://krispossghana.com/",
+	},
+	{
+		name: "LeT iT Out",
+		description:
+			"A Laravel Web Application that  enables NUPS-G KNUST  members to share and express the challenges, concerns and burdens of their hearts. It is our aim that this will be an avenue to seek Godly counsel and comfort in God as we go through the various phases of our lives",
+		tags: [
+			{
+				name: "Laravel",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "MySQL",
+				color: "green-text-gradient",
+			},
+			{
+				name: "scss",
+				color: "pink-text-gradient",
+			},
+		],
+		image: projectDD,
+		source_code_link: "#",
+		live_site_link: "https://help.nupsgknust.org",
+	},
+	{
+		name: "Imprint Generator",
+		description:
+			"Our Multi-Website Data Extraction AI Web Application is a powerful tool designed to automate and simplify the process of gathering data from multiple websites. Whether you're a researcher, business analyst, or simply someone in need of structured information from various online sources, our application provides an efficient and reliable solution",
+		tags: [
+			{
+				name: "django",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "chaptGPT",
+				color: "pink-text-gradient",
+			},
+		],
+		image: projectEE,
+		source_code_link: "#",
+		live_site_link: "https://$$/",
+	},
+	{
+		name: "Smart Home",
+		description:
+			"An APP to Transform your home into a futuristic oasis with our Smart Home Control system, built using React Native and Arduino technology. With this innovative solution, you can effortlessly manage and automate all your home appliances from your smartphone. Enjoy the convenience of remotely controlling lights, temperature, security, and more, making your life more comfortable and energy-efficient",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "mobx",
+				color: "green-text-gradient",
+			},
+			{
+				name: "arduino",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "bluetooth",
+				color: "orange-text-gradient",
+			},
+		],
+		image: projectFF,
+		source_code_link:
+			"https://github.com/Technical-Shubham-tech/travel-advisor",
+		live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+	},
+	{
+		name: "E-health Care",
+		description:
+			"Revolutionize your healthcare experience with our E-Healthcare platform, developed using React Native and MongoDB. Access medical services, book appointments, and securely store health records all from your mobile device. Our user-friendly interface ensures convenience, while MongoDB's robust data management ensures data security and accessibility. Experience the future of healthcare, where you're in control of your well-being with just a tap",
+		tags: [
+			{
+				name: "reactNative",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "mongoDB",
+				color: "green-text-gradient",
+			},
+			{
+				name: "style-component",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "mobx",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: projectGG,
+		source_code_link: "#",
+		live_site_link: "#",
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -29,6 +29,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nupsgknust from "./company/nupsgknust.png";
+import knust from "./company/knust.png";
 
 import project1 from "./project1.png";
 import project2 from "./project2.png";
@@ -36,38 +38,54 @@ import project3 from "./project3.png";
 import project4 from "./project4.png";
 import project5 from "./project5.png";
 import project6 from "./project6.png";
+import projectAA from "./projectAA.png";
+import projectBB from "./projectBB.png";
+import projectCC from "./projectCC.png";
+import projectDD from "./projectDD.png";
+import projectEE from "./projectEE.png";
+import projectFF from "./projectFF.png";
+import projectGG from "./projectGG.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  preview,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
+	logo,
+	backend,
+	creator,
+	mobile,
+	web,
+	github,
+	preview,
+	menu,
+	close,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	meta,
+	shopify,
+	starbucks,
+	tesla,
+	nupsgknust,
+	knust,
+	project1,
+	project2,
+	project3,
+	project4,
+	project5,
+	project6,
+	projectAA,
+	projectBB,
+	projectCC,
+	projectDD,
+	projectEE,
+	projectFF,
+	projectGG,
 };
